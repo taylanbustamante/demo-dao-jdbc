@@ -11,7 +11,7 @@ public class Department implements Serializable {
     private Integer id;
     private String name;
 
-    private Department() {
+    public Department() {
     }
 
     public Department(Integer id, String name) {
@@ -49,9 +49,9 @@ public class Department implements Serializable {
 
     @Override
     public String toString() {
-        return "Department{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
+        return "Department {" +
+                "id= " + id +
+                ", name= '" + name + '\'' +
                 '}';
     }
 }
